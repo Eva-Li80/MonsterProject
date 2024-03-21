@@ -1,0 +1,86 @@
+.monster-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+    .monsterlist{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 20px;
+
+        li{
+            margin: 50px;
+        }
+
+    }
+
+    .monsterinfo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 250px;
+        font-size: 20px;
+        background-color: whitesmoke;
+        margin-top: 20px;
+        border: 3px solid black;
+        border-radius: 15px;
+        
+
+        .btn{
+            padding: 10px;
+            margin-top: 10px;
+            background-color: green;
+            cursor: pointer;
+        }
+    }
+
+    .monster-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+ 
+.monster {
+    width: 300px; 
+    height: 300px;
+    overflow: hidden; 
+    position: relative; 
+    border: 3px solid rgb(233, 75, 102);
+    border-radius: 50%;
+  }
+  
+  .monster1 {
+    background-position: -130px -30px; 
+  }
+  
+  .monster2 {
+    background-position: -820px -50px; 
+  }
+
+  .monster3 {
+    background-position: -1560px -60px; 
+  }
+  .monster4 {
+    background-position: -880px -810px; 
+  }
+  .monster5 {
+    background-position: -1650px -780px; 
+  }
+}
+ 
+
+.sel{
+  cursor: pointer;
+}
+ 
+  

@@ -1,0 +1,18 @@
+.monstersearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 27, 62);
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+
+    input{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    button{
+        cursor: pointer;
+    }
+}
