@@ -21,4 +21,15 @@ export type Hobbies = {
   };
   
 
+  // GlobalState
+export type MonsterState = {
+    monsters: Monster[];
+  };
+  
+  // Actions
+ export type Action = {
+    type: "Add" | "Remove";
+    payload: Monster | string;
+  };
+
   
